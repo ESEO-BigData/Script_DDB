@@ -35,6 +35,6 @@ def verifier_doublons(chemin_fichier, champ_a_verifier):
 # Utilisation du script
 if __name__ == "__main__":
     chemin_fichier = "DB_communes.json"  # Remplacez par le chemin de votre fichier JSON
-    champ_a_verifier = "code_commune_INSEE"  # Remplacez par le champ que vous voulez vérifier
+    champ_a_verifier = "commune"  # Remplacez par le champ que vous voulez vérifier
 
     doublons = verifier_doublons(chemin_fichier, champ_a_verifier)
